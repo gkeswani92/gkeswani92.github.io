@@ -5,7 +5,7 @@ date        : 2015-05-07 20:46:05
 categories  : Java
 ---
 
-Two of the most important things to consider while writing programs (apart from actually getting the desired output :P ) are the time and space complexity. **Time complexity** is the amount of time taken by the program to produce the desired output while **space complexity** refers to the amount of memory that is consumed by the program for its execution. And although memory is getting cheaper by the day, the amount of data that is being generated and the large scaling needs of applications has made it paramount for programs to be memory efficient. 
+Two of the most important things to consider while writing programsare the time and space complexity. Time complexity is the amount of time taken by the program to produce the desired output while space complexity refers to the amount of memory that is consumed by the program for its execution. And although memory is getting cheaper by the day, the amount of data that is being generated and the large scaling needs of applications has made it paramount for programs to be memory efficient. 
 
 For this, we first need to understand the different types of memory that are available to us while programming in Java so that we can make an informed decision about which type to use in which situations. 
 
