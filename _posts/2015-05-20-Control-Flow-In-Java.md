@@ -40,7 +40,7 @@ else
 
 The conditional must produce a boolean result. The statement is either a simple statement terminated by a semicolon or a **compound statement**, which is a group of simple statements **enclosed in braces.**
 
-Although indenting the code is not mandatory in Java, it helps to make the code more readable and thus must be done at all times.
+![If Else in Java](/resources/if_else.png)
 
 ***
 <br>
@@ -65,6 +65,8 @@ while(Boolean-expression)
 
 Running a while loop is like saying "Check for this condition. If it is true, keep doing this loop until the condition becomes false”
 
+![while in Java](/resources/while.png)
+
 ***
 <br>
 
@@ -80,6 +82,8 @@ while(Boolean-expression);
 
 Running a do while loop is like saying "Run this loop at least once. Then check for the condition and keep doing this loop until the condition becomes false”
 
+![do while in Java](/resources/do_while.png)
+
 ***
 <br>
 
@@ -93,6 +97,8 @@ for(initialization; Boolean-expression; step)
 {% endhighlight %}
 
 Any of the expressions initialization, Boolean-expression or step can be empty. The expression is **tested before each iteration**, and as soon as it evaluates to false, execution will continue at the line following the for statement. At the **end of each loop, the step executes**. 
+
+![for in Java](/resources/for.png)
 
 We can define multiple variables within a for statement, but they must be of the same type. In the given example, the int definition in the for statement covers both i and j
 
