@@ -14,7 +14,7 @@ Note: Java doesn’t allow you to use a number as a boolean, even though it’s 
 {% highlight java %}
 a = 0;
 if (a): //Allowed in C and C++, not in Java
-    print True;
+print True;
 {% endhighlight %}
 
 If you want to use a non-boolean in a boolean test, such as if(a), you must first convert it to a boolean value using a conditional expression, such as if(a != 0).
@@ -28,14 +28,14 @@ The if-else statement is probably the most basic way to control program flow. Th
 
 {% highlight java %}
 if(Boolean-expression)
-    statement
+statement
 
 OR
 
 if(Boolean-expression)
-    statement
+statement
 else
-    statement
+statement
 {% endhighlight %}
 
 The conditional must produce a boolean result. The statement is either a simple statement terminated by a semicolon or a **compound statement**, which is a group of simple statements **enclosed in braces.**
@@ -60,7 +60,7 @@ In a while loop, the Boolean-expression is evaluated once at the beginning of th
 
 {% highlight java %}
 while(Boolean-expression)
-    statement
+statement
 {% endhighlight %}
 
 Running a while loop is like saying "Check for this condition. If it is true, keep doing this loop until the condition becomes false”
@@ -76,7 +76,7 @@ The sole difference between while and do-while is that the statement of the do-w
 
 {% highlight java %}
 do
-    statement
+statement
 while(Boolean-expression);
 {% endhighlight %}
 
@@ -93,7 +93,7 @@ A for loop performs initialization before the first iteration. Then it performs 
 
 {% highlight java %}
 for(initialization; Boolean-expression; step)
-    statement
+statement
 {% endhighlight %}
 
 Any of the expressions initialization, Boolean-expression or step can be empty. The expression is **tested before each iteration**, and as soon as it evaluates to false, execution will continue at the line following the for statement. At the **end of each loop, the step executes**. 
@@ -104,9 +104,9 @@ We can define multiple variables within a for statement, but they must be of the
 
 {% highlight java %}
 for(int i = 0, j = 1;
-    i < 10 && j != 11;
-    i++, j++)
-    /* body of for loop */
+i < 10 && j != 11;
+i++, j++)
+/* body of for loop */
 {% endhighlight %}
 
 The for loop is generally used in conditions where we **know in advance how many times the loop is to be run**. In places where the number of iterations aren't very clear in advance, the while or the do while loop are used.
@@ -123,14 +123,14 @@ Inside the body of any of the iteration statements you can also control the flow
 {% highlight java %}
 for(int i = 0;; i++)
 {
-    if ( i == 20 )
-        break //This loop would go on infinitely unless the break statement would be 
-              //present. Now the last number to be checked for odd or even is 19 and 
-              //the control goes out of the loop as soon as 20 is encountered.
-    if (i % 2 == 0)
-        continue //Skips the iteration in case of even numbers and proceeds to next
-    else
-        System.out.println(i) //Prints only the odd numbers
+if ( i == 20 )
+break //This loop would go on infinitely unless the break statement would be 
+//present. Now the last number to be checked for odd or even is 19 and 
+//the control goes out of the loop as soon as 20 is encountered.
+if (i % 2 == 0)
+continue //Skips the iteration in case of even numbers and proceeds to next
+else
+System.out.println(i) //Prints only the odd numbers
 }
 {% endhighlight %}
 
@@ -153,15 +153,15 @@ The only place a label is useful in Java is right before an iteration statement.
 label1:
 outer-iteration 
 {
-    inner-iteration {
-    //...
-        break; // 1
-    //...
-        continue;  // 2
-    //...
-        continue label1; // 3
-    //...
-        break label1;  // 4
+inner-iteration {
+//...
+break; // 1
+//...
+continue;  // 2
+//...
+continue label1; // 3
+//...
+break label1;  // 4
 {% endhighlight %}
 
 In case 1, the break breaks out of the inner iteration and you end up in the outer iteration. In case 2, the continue moves back to the beginning of the inner iteration. But in case 3, the continue label1 breaks out of the inner iteration and the outer iteration, all the way back to label1. Then it does in fact continue the iteration, but starting at the outer iteration. In case 4, the break label1 also breaks all the way out to label1, but it does not re-enter the iteration. It actually does break out of both iterations
@@ -189,18 +189,18 @@ The switch is sometimes classified as a selection statement. The switch statemen
 {% highlight java %}
 switch(integral-selector) 
 {
-    case integral-value1 : 
-        statement; 
-        break;
-    case integral-value2 : 
-        statement; 
-        break;
-    case integral-value3 : 
-        statement; 
-        break;
-    // ...
-    default: 
-        statement;
+case integral-value1 : 
+statement; 
+break;
+case integral-value2 : 
+statement; 
+break;
+case integral-value3 : 
+statement; 
+break;
+// ...
+default: 
+statement;
 }
 {% endhighlight %}
 
