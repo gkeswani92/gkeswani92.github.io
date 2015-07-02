@@ -1,5 +1,5 @@
 ---
-layout      : post
+layout      : post_page
 title       : "Operators in Java"
 date        : 2015-05-13 10:46:05
 categories  : Java
