@@ -1,7 +1,7 @@
 ---
 layout      : post_page
 title       : "How does the processor differentiate data from commands when everything is in binary?"
-date        : 2015-07-01 10:46:05
+date        : 2015-07-02 10:46:05
 categories  : computer_science
 ---
 
