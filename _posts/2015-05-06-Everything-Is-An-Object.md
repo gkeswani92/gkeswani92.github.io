@@ -1,5 +1,5 @@
 ---
-layout      : post_page
+layout      : post
 title       : "Everything in Java is an Object"
 date        : 2015-05-06 18:46:05
 categories  : Java

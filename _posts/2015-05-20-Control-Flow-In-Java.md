@@ -1,5 +1,5 @@
 ---
-layout      : post_page
+layout      : post
 title       : "Control Flow in Java"
 date        : 2015-05-20 10:46:05
 categories  : Java

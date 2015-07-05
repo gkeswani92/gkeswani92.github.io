@@ -1,5 +1,5 @@
 ---
-layout      : post_page
+layout      : post
 title       : "Class and Objects in Java"
 date        : 2015-05-10 20:46:05
 categories  : Java

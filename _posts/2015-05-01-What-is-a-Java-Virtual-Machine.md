@@ -1,5 +1,5 @@
 ---
-layout      : post_page
+layout      : post
 title       : "Why do we need a Java Virtual Machine?"
 date        : 2015-05-01 16:46:05
 categories  : Java

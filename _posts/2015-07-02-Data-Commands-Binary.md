@@ -1,8 +1,8 @@
 ---
-layout      : post_page
-title       : "How does the processor differentiate data from commands when everything is in binary?"
-date        : 2015-07-02 10:46:05
-categories  : computer_science
+layout      : post
+title       : "Differentiating data from commands in binary form?"
+date        : 2015-07-01 10:46:05
+categories  : Computer Science
 ---
 
 To understand the how the processor differentiates between the data and commands from the instructions that are passed to it, we need to understand some basic terminologies like instructions, opcodes and operands.

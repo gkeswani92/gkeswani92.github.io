@@ -1,5 +1,5 @@
 ---
-layout      : post_page
+layout      : post
 title       : "Python Collections: defaultdict"
 date        : 2015-06-30 10:46:05
 categories  : Python

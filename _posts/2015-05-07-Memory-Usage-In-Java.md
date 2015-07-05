@@ -1,5 +1,5 @@
 ---
-layout      : post_page
+layout      : post
 title       : "Types of Memory used in Java"
 date        : 2015-05-07 20:46:05
 categories  : Java
