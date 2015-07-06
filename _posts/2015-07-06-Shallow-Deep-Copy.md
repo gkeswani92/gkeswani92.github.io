@@ -82,6 +82,8 @@ This is because the memory structure for the above operation looks like:
 
 ![Slicing nested lists](/resources/deep_copy_4.png)
 
+**Deep Copying:**
+
 To overcome the above situation, we need to use the deepcopy method of the copy module provided by Python. 
 
 {% highlight python %}
