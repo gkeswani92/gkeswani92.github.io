@@ -77,3 +77,6 @@ print s                     #That's clear. (As can be seen,
 {% endhighlight %}
 
 Specifying, global <variable_name> makes sure that any changes made inside the method change the global variable's value, which will reflect in any usage of that variable further on.
+
+PS- Keep in mind, that you only need to declare them global inside the function if you want to do assignments / change them. global is not needed for printing and accessing.
+
